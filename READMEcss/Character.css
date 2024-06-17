@@ -1,8 +1,7 @@
 body {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     padding: 0 0.5rem;
+    background-color: #4e4e4e;
 }
 
 h1 {
@@ -13,15 +12,15 @@ h1 {
     font-size : 24px;
     text-shadow : 1px 1px 1px #ffffffff;
     text-align: center;
-    background-color: #444444;
+    background-color: #ffffff;
 }
 
 h2 {
     font-family : sans-serif;
     font-size : 18px;
     padding: 10px;
-    background-color: #ccccee;
-    border-bottom: solid 3px #7777ee;
+    background-color: #ffffff;
+    border-bottom: solid 3px #ffffff;
 }
 
 p {
@@ -31,7 +30,7 @@ p {
 
 img {
     padding: 4px;
-    background-color: #cccccc;
+    background-color: #ffffff;
 }
 
 ul {
@@ -40,12 +39,15 @@ ul {
 
 li {
     font-family : sans-serif;
-    font-size : 0.8em;
+    font-size : 20px;
     min-width: 100px;
-    height: 1.2em;
-    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
     display: inline-block;
-    background: #666666;
+    background-color: #f00;
+    border: 3px solid; /* 左右の幅を3pxに */
+    border-color: #ff7a7a #c70000 #7e0000;
     text-align: center;
 }
 
@@ -55,11 +57,36 @@ li {
     width: 1050px;
 }
 
+.pictureBoard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .slider {
+    gap: 5px;
     width: 120px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
     display: flex;
     flex-direction: column;
+    background-color: #8f0000;
+}
+
+.pictureBox{
+    padding: 3px;
+}
+
+.description {
+    visibility: visible;
+    padding: 3px;
+    width: 1050px;
+    height: 30px;
+    margin-top: 10px;
     background-color: #ff0000;
 }
+
+.description:active {
+    visibility: hidden;
+}
+
