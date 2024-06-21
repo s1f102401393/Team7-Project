@@ -43,8 +43,8 @@ ul.gnavi li a:hover{
 h1 {
     color: #000000;
     width: 1050px;
-    font-weight: normal;
-    font-size: 24px;
+    font-weight: bold;
+    font-size : 24px;
     text-align: center;
     background-color: #ffffff;
 }
@@ -52,21 +52,24 @@ h1 {
 h2 {
     font-size: 20px;
     padding: 10px;
-    background-color: #000000;
-    color: #ffffff;
-    border-left: solid 6px #dc2b2b;
+    background-color: #ffefef;
+    border: solid 4px;
+    border-color: #ffdede #ff9898 #ff9a9a #ffc3c3;
 }
 
 h3 {
-    font-size: 18px;
+    font-family : sans-serif;
+    font-size: 20px;
     padding: 10px;
-    border-bottom: solid 3px #c91818;
-    text-shadow: 4px 4px #febdbd;
+    /* background-color: #ffffff; */
+    border-bottom: solid 3px #ffb2b2;
 }
 
 p {
-    font-size: 15px;
+    font-family : sans-serif;
+    font-size : 18px;
     color: #000000;
+    background-color: #ffffff57;
 }
 
 .apex_logo{
