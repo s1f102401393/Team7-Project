@@ -1,7 +1,7 @@
 body {
     display: flex;
     padding: 0 0.5rem;
-    background-color: #4e4e4e;
+    background: url('../picture/stone.png');
 }
 
 h1 {
@@ -44,21 +44,23 @@ li {
     border: 3px solid; /* 左右の幅を3pxに */
     border-color: #ff7a7a #c70000 #7e0000;
     text-align: center;
+    box-shadow: 0px 0px 10px 5px #8f8f8f;
 }
 
 .board{
     display: flex;
     flex-direction: column;
     width: 1050px;
+    margin-left: 10px;
 }
 
 .slider {
+    position: fixed;
     gap: 5px;
     width: 120px;
-    margin-right: 20px;
+    margin-left: 1100px;
     margin-top: 10px;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
-    background-color: #8f0000;
 }
