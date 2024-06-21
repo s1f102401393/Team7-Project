@@ -1,7 +1,10 @@
 body {
     display: flex;
     padding: 0 0.5rem;
-    background-color: #6b6b6b;
+    background-image: url("../picture/background.png"); /*背景画像*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 h1 {
