@@ -107,10 +107,11 @@ li:active{
 .pictureBox{
     padding: 7px;
     border: 8px solid;
-    border-color: #dbdbdb #808080 #808080 #dbdbdb;
+    background-image: url("../picture/stone.png");
+    border-color: #dbdbdb #808080 #5e5e5e #bebebe;
 }
 
 .pictureBox:active{
-    border-color: #808080 #dbdbdb #dbdbdb#808080;
+    border-color: #5e5e5e #dbdbdb #bebebe#808080;
 }
 
