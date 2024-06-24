@@ -60,7 +60,6 @@ h2 {
 h3 {
     font-size: 20px;
     padding: 10px;
-    /* background-color: #ffffff; */
     border-bottom: solid 3px #ffb2b2;
 }
 
@@ -74,28 +73,25 @@ p {
     padding: 4px;
     border-radius: 20px;
     background-color: #f00000;
-    border: 10px solid; /* 左右の幅を3pxに */
+    border: 10px solid;
     border-color: #ff7a7a #c70000 #7e0000;
     box-shadow: 0px 0px 10px 5px #8f8f8f;
 }
 
-ul {
-    padding: 0px;
-}
-
-li {
+/* li {
     font-size: 20px;
     min-width: 100px;
     height: 40px;
     border-radius: 10px;
     margin-top: 10px;
+    margin-left: 5px;
     display: inline-block;
     background-color: #f00;
-    border: 3px solid; /* 左右の幅を3pxに */
+    border: 3px solid; 
     border-color: #ff7a7a #c70000 #7e0000;
     text-align: center;
     box-shadow: 0px 0px 10px 5px #8f8f8f;
-}
+} */
 
 li:active{
     transform: translateY(5px);
@@ -105,12 +101,10 @@ li:active{
     display: flex;
     flex-direction: column;
     width: 1050px;
-    margin-left: 10px;
 }
 
-.slider {
+/* .slider {
     position: fixed;
-    /* gap: 5px; */
     width: 120px;
     margin-right: 20px;
     margin-top: 10px;
@@ -118,4 +112,4 @@ li:active{
     display: flex;
     flex-direction: column;
     margin-left: 1100px;
-}
+} */
