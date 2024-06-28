@@ -39,3 +39,77 @@ ul.gnavi li a{
 ul.gnavi li a:hover{
     background-color: #000000;
 }
+
+h1 {
+    color: #000000;
+    width: 1050px;
+    font-weight: bold;
+    font-size : 24px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #ffefef;
+    border: solid 4px;
+    border-color: #ffdede #ff9898 #ff9a9a #ffc3c3;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: solid 3px #ffb2b2;
+}
+
+p {
+    font-size : 18px;
+    color: #000000;
+    background-color: #ffffff57;
+}
+
+.apex_logo{
+    padding: 4px;
+    border-radius: 20px;
+    background-color: #f00000;
+    border: 10px solid;
+    border-color: #ff7a7a #c70000 #7e0000;
+    box-shadow: 0px 0px 10px 5px #8f8f8f;
+}
+
+/* li {
+    font-size: 20px;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #f00;
+    border: 3px solid; 
+    border-color: #ff7a7a #c70000 #7e0000;
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px #8f8f8f;
+} */
+
+li:active{
+    transform: translateY(5px);
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+}
+
+/* .slider {
+    position: fixed;
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+} */
