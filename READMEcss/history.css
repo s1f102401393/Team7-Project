@@ -39,3 +39,57 @@ ul.gnavi li a{
 ul.gnavi li a:hover{
     background-color: #000000;
 }
+
+h1 {
+    color: #ffffffff;
+    width: 1050px;
+    font-weight: normal;
+    font-size : 24px;
+    text-shadow : 1px 1px 1px #ffffffff;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+h2 {
+    font-size : 18px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-bottom: solid 3px #ffffff;
+}
+
+p {
+    font-size : 0.8em;
+}
+
+/* li {
+    font-family : sans-serif;
+    font-size : 20px;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    background-color: #f00;
+    border: 3px solid; 
+    border-color: #ff7a7a #c70000 #7e0000;
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px #8f8f8f;
+} */
+
+li:active{
+    transform: translateY(5px);
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    margin-left: 10px;
+}
+
+.pictureBoard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
