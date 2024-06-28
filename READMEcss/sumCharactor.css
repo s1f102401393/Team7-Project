@@ -69,7 +69,7 @@ li:active{
 .board{
     width: 1100px;
     height: 800px;
-    background-image: url('/picture/backgroundStone.png');
+    background-image: url('../picture/backgroundStone.png');
 }
 
 .description{
@@ -84,27 +84,27 @@ li:active{
 }
 
 .holizonn{
-    background-image: url('/picture/tall-holizon.jpg');
+    background-image: url('../picture/tall-holizon.jpg');
 }
 
 .ko-sutikku{
-    background-image: url('/picture/tall-co-sutikku.png');
+    background-image: url('../picture/tall-co-sutikku.png');
 }
 
 .pathfinder{
-    background-image: url('/picture/tall-pathfinder.png');
+    background-image: url('../picture/tall-pathfinder.png');
 }
 
 .raihurainn{
-    background-image: url('/picture/tall-raifurainn.jpg');
+    background-image: url('../picture/tall-raifurainn.jpg');
 }
 
 .revunannto{
-    background-image: url('/picture/tall-revunannto.png');
+    background-image: url('../picture/tall-revunannto.png');
 }
 
 .vanngaro-ru{
-    background-image: url('/picture/tall-vanngaro-ru.png');
+    background-image: url('../picture/tall-vanngaro-ru.png');
 }
 
 .finish{
